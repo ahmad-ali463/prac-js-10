@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark  ">
+            <div class="container">
+              <a class="navbar-brand" href="#">Assignment</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             
+                <form  id="form" class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+       <h4 class="text-center mt-4">Chapter # 15 to 20</h4>
+       <div class="container">
+           <div class="row mt-4 ">
+               <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                   <h3 class="text-center">Input</h3>
+                    <div class="border rounded-3 h-75 p-3 d-flex align-item-center ">
+                        <!-- <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                           
+                          </div> -->
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Type Your text here" id="inputText" >
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3 class="text-center ">Original string</h3>
+                    <div class="border rounded-3 h-75 p-2 d-flex align-item-center text-white bg-dark  ">
+                        <div class="text-center">
+                            &nbsp;  1) Faisalabad &nbsp; 2) Islamabad  &nbsp; 3) Lahore &nbsp; 4) Karachi &nbsp;
+5)   kashmir &nbsp; 6) Rawalpinidi &nbsp; 7) Gojra                   
+ </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-sm-12 col-md-6  col-lg-6 text-center">
+                    <h3 class="text-center mt-4">Buttons</h3>
+                    <div class="border rounded-3  p-4">
+                        <button class="btn btn-lg btn-danger mb-2" onclick="simpleAlert()">Simple Alert</button>
+                        <button class="btn btn-lg btn-danger mb-2" onclick="printMyName()">Print My Name</button>
+                        <br>
+                        <button class="btn btn-lg btn-danger mb-2" onclick="printAllCities()">Print Cities</button>
+                        <button class="btn btn-lg btn-danger mb-2" onclick="addYourCitiesInList()">Add Cities in list</button>
+                        <br>
+                        <button class="btn btn-lg btn-danger mb-2" onclick="generateTable()">Genrate Table</button>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                    <h3 class="text-center mt-4">Output/Result</h3>
+                    <div class="border rounded-3  h-75" id="output"></div>
+                    <button class=" btn btn-outline-secondary mt-3 " id="clear">Clear statement</button>
+                </div>
+            </div>
+
+          </div>
+</body>
+</html>
